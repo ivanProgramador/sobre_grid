@@ -1,0 +1,22 @@
+.wrapper {
+
+ /*Aqui eu transformo todos estes elementos em grid itens*/	
+  display: grid;
+
+ /*Aqui eu transformo este elementos em colunas de 200 pixeis e neste caso o elemento pai 
+   se divide para suportar a lagura deles se cada um tem 200px e sao 5 elementos ele vira 
+   uma tabela com 5 elementos mas com 6 espaços fazendo a grade independente da quantidade 
+   de elementos presentes 
+
+    grid-template-columns: 200px 200px 200px;
+
+    a medida fr faz com que independente do tamanho da grade os elementos se adaptem ao tamnho
+    neste caso eles vão ficar maiores pra cobrir uma fração e o  espaço em branco o elemento pai preenche 
+    pra manter o formato de grade 
+
+    */
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+ 
+}
